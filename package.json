@@ -12,9 +12,9 @@
   "homepage": "https://github.com/txz1006/nav",
   "scripts": {
     "ng": "ng",
-    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && ng serve --port=7001",
-    "setup": "SET NODE_OPTIONS=--openssl-legacy-provider && tsc nav.config.ts && ts-node ./scripts/build.mjs",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && npm run setup && ng build --prod --base-href  ./",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider && ng serve --port=7001",
+    "setup": "NODE_OPTIONS=--openssl-legacy-provider && tsc nav.config.ts && ts-node ./scripts/build.mjs",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider && npm run setup && ng build --prod --base-href  ./",
     "lint": "eslint --cache --ext .js,.ts ./src"
   },
   "private": true,
