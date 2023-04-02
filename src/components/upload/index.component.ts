@@ -52,10 +52,10 @@ export class UploadComponent {
         const iconUrl = this.result as string
         const url = iconUrl.split(',')[1]
         // file.name 方便自动带上文件后缀
-        const path = `nav-${Date.now()}-${file.name}`
+        const path = `upImages/nav-${Date.now()}-${file.name}`
 
         createFile({
-          branch: 'image',
+          branch: 'main',
           message: 'create image',
           content: url,
           isEncode: false,
