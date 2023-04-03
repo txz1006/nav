@@ -1,4 +1,10 @@
 {
+  "AIGC": {
+    "createdAt": "2023-04-03T06:43:14.541Z",
+    "color": "#9f00f5",
+    "desc": "AI相关",
+    "isInner": false
+  },
   "科学上网": {
     "createdAt": "2023-04-01T04:55:42.656Z",
     "color": "#666284",
